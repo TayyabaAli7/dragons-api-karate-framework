@@ -1,3 +1,4 @@
+@smoke
 Feature: Get plan code
   Background : 
   * def tokenFeature = callonce read('GenerateToken.feature')
