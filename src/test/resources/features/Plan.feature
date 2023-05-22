@@ -1,6 +1,6 @@
 @smoke
 Feature: Get plan code
-  Background : 
+  Background:
   * def tokenFeature = callonce read('GenerateToken.feature')
   * def token = tokenFeature.response.token
     Given url "https://tek-insurance-api.azurewebsites.net"
