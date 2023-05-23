@@ -34,7 +34,7 @@
 				<configuration>
 					<includes>
 
-						<include>SmokeRunner.java</include>
+						<include>TestRunner.java</include>
 					</includes>
 
 				</configuration>
