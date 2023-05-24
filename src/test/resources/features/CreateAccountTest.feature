@@ -8,7 +8,7 @@ Feature: Create Account Test
     And print result
     * def generatedToken = result.response.token
     Given url "https://tek-insurance-api.azurewebsites.net"
-    @Regression
+    
     Scenario: Create Account
     Given path "/api/accounts/add-primary-account"
     And request {"email": "tayy3289@gmail.com","firstName": "Tayyaba","lastName": "Ali","title": "Miss.","gender": "FEMALE","maritalStatus": "SINGLE","employmentStatus": "student","dateOfBirth": "1996-09-23"}
