@@ -1,3 +1,5 @@
+
+@Regression
 Feature: Get Account
 
 
